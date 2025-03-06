@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container p {
+	font-family: "Plus Jakarta Sans", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* h1 {
+	font-family: "Sora", serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+}
+
+h1 {
+	font-family: "Roboto", serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+} */
+
+.card {
+	position: absolute;
+}
+.card-one {
+	top: 5%;
+	right: 40%;
+	z-index: 20;
+}
+
+.card-two {
+	right: 5%;
+	bottom: 5%;
+	z-index: 35;
+}
+
+.img-card {
+	position: relative;
+	z-index: 30;
+}
+
+.try {
+	right: 0;
+	bottom: 0;
+}
+
+.absolute.inset-0 {
+	pointer-events: none;
+}
